@@ -3,10 +3,13 @@ Given a string of text, write an algorithm that returns the text received in a r
 E.g reverseString('algorithms') // should return 'smhtirogla'
 */
 
-
+// THIS IS WRONG ORIGINAL CODE? Should be longest Word no reverse Word?
 
 function longestWord(text) {
-    // Code goes here
+    let reverseText = text.split('').reverse().join('')
+    console.log(text)
+    console.log(reverseText)
+    return reverseText
 }
 
 

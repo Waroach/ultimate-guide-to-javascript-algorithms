@@ -7,7 +7,18 @@ e.g palindromeChecker('racecar') // will return true
 
 
 function palindromeChecker(text) {
-    v// Code goes here
+    let reverseText = text.split('').reverse().join('')
+    if(reverseText.toLowerCase() === text.toLowerCase()){
+        console.log('Yes Palindrome')
+        console.log(text)
+        console.log(reverseText)
+        return true
+    }else{
+        console.log('No Palindrome')
+        console.log(text)
+        console.log(reverseText)
+        return false
+    }
 }
 
 

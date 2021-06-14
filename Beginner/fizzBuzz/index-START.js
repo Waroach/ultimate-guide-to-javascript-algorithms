@@ -8,7 +8,26 @@
 
 
 function fizzBuzz(n) {
-    // Code goes here
+    let count = 1
+    while (count <= n){
+        if((count % 3 === 0) && (count % 5 === 0)){
+            console.log('FizzBuzz')
+            return fizzBuzz
+            count++
+        }else if(count % 3 === 0){
+            console.log('Fizz')
+            return Fizz
+            count++
+        }else if(count % 5 === 0){
+            console.log('Buzz')
+            return Buzz
+            count++
+        }else{
+            console.log(count)
+            return count
+            count++
+        }
+    }
 }
 
 

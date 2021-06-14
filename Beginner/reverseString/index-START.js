@@ -6,7 +6,10 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 
 function reverseString(text) {
-    // Code goes here
+    let reverseText = text.split('').reverse().join('')
+    console.log(text)
+    console.log(reverseText)
+    return reverseText
 }
 
 

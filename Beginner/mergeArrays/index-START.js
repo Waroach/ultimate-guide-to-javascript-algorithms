@@ -11,7 +11,12 @@ function mergeArrays(...arrays) {
     arrays.forEach(array => {
         jointArray = [...jointArray, ...array]
     });
-
+// ****************** START of My Code Same as chunkArray
+    let uniqueArray = jointArray.filter((c,i) => {
+        return jointArray.indexOf(c) === i
+    })
+    console.log(uniqueArray)
+// ****************** END of My Code Same as chunkArray
     return [...new Set([...jointArray])]
 
     

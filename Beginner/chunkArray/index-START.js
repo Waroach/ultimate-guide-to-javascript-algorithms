@@ -5,7 +5,16 @@
 */
 
 function chunkArray(array, size) {
-    // Code goes here
+    //concat the two arrays into one
+    let arrCon = [...array, ...size]
+
+    // step thru arrCon
+    // place unigueitems into new Array
+    let uniqueItems = arrCon.filter((c, index) => {
+        return arrCon.indexOf(c) === index
+    })
+
+    return uniqueItems
 }
 
 

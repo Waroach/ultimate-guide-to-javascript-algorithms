@@ -7,7 +7,12 @@ E.g hammingDistance('rover', 'river') // should return 1
 
 
 function hammingDistance(stringA, stringB) {
-    // Code goes here
+    for(i=0; i<stringA.length; i++){
+        if(stringA.charAt(i) !== stringB.charAt(i)){
+            console.log(i)
+            return i
+        }
+    }
 }
 
 

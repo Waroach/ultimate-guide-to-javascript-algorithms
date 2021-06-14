@@ -8,7 +8,20 @@ don't. E.g
 
 
 function isAnagram(stringA, stringB) {
-    // Code goes here
+    if(stringA.length === stringB.length){
+        let a = stringA.split('').sort().join('')
+        let b = stringB.split('').sort().join('')
+        if(a === b){
+            console.log('Is A Anagram')
+            return true
+        }else{
+            console.log('Not A Anagram')
+            return false
+        }
+    }else{
+        console.log('Does not have same length, So NO Not A Anagram')
+        return false
+    }
 }
 
 
