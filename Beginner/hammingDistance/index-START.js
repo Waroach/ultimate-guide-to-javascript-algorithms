@@ -5,7 +5,7 @@ E.g hammingDistance('rover', 'river') // should return 1
 
 
 
-
+// 2 failed 3 passed
 function hammingDistance(stringA, stringB) {
     for(i=0; i<stringA.length; i++){
         if(stringA.charAt(i) !== stringB.charAt(i)){

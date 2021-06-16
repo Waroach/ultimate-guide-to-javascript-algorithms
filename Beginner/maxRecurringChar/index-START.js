@@ -4,7 +4,7 @@ e.g maxRecurringChar('aabacada') // will return 'a'
 */
 
 
-
+// 3 failed 1 passed lol
 function maxRecurringChar(text) {
     // Code goes here
 }

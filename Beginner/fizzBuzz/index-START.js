@@ -6,7 +6,7 @@
 */
 
 
-
+// 2 failed 1 passed
 function fizzBuzz(n) {
     let count = 1
     while (count <= n){

@@ -8,7 +8,7 @@ than 1(index 0), but less than 2(index 1).
 */
 
 
-
+// 2 failed 2 passed
 function whereIBelong(arr, num) {
    let i = 0
    for(currNumber of arr){

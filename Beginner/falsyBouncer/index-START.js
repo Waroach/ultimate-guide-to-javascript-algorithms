@@ -5,7 +5,7 @@ and return an array of only truthy values.
 E.g  falsyBouncer([1, 0, null, '', 5]) // should return [1,5]
 */
 
-
+// 1 failed 2 passed
 function falsyBouncer(array) {
     let newArr = []
     array.forEach(e => {

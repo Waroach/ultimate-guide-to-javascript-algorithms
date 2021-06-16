@@ -4,7 +4,7 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 */
 
 // THIS IS WRONG ORIGINAL CODE? Should be longest Word no reverse Word?
-
+// 3 failed 1 passed
 function longestWord(text) {
     let reverseText = text.split('').reverse().join('')
     console.log(text)
