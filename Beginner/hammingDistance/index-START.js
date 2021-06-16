@@ -5,16 +5,37 @@ E.g hammingDistance('rover', 'river') // should return 1
 
 
 
-// 2 failed 3 passed
+                                                    // My First Try
 function hammingDistance(stringA, stringB) {
+    let count = 0
     for(i=0; i<stringA.length; i++){
-        if(stringA.charAt(i) !== stringB.charAt(i)){
-            console.log(i)
-            return i
+        if(stringA.charAt(i) != stringB.charAt(i)){
+            count++
         }
     }
+    return count
 }
+                                                    // for-loop
+// function hammingDistance(stringA, stringB) {
+//     let result = 0
+//     if (stringA.length == stringB.length) {
+//         for (let i = 0; i < stringA.length; i++) {
+//             if (stringA++[++i].toLowerCase() != stringB++[++i].toLowerCase()) {
+//                 result++
+//             }
+//         }
 
+//         return result
+
+//     } else {
+//         throw new Error('Strings do not have equal length')
+//     }
+// }
+                                                    // 
+
+                                                    // 
+
+                                                    // 
 
 
 module.exports = hammingDistance
