@@ -47,18 +47,29 @@ function reverseString(text){
     return [...text].reduce((acc, char) => char + acc, '')
     // ********** OR **********
 }
+<<<<<<< HEAD
 /// the  t + h + e
 e+h+t
 
 
-
+=======
+>>>>>>> 64df7c589ba693277ad6d786620fed919311ea8c
 
 module.exports = reverseString
 
+<<<<<<< HEAD
+module.exports = reverseString
+
+=======
+>>>>>>> 64df7c589ba693277ad6d786620fed919311ea8c
 // ******** Before reading Scotch.IO ********
 // function reverseString(text) {
 //     let reverseText = text.split('').reverse().join('')
 //     console.log(text)
 //     console.log(reverseText)
 //     return reverseText
+<<<<<<< HEAD
 // }
+=======
+// }
+>>>>>>> 64df7c589ba693277ad6d786620fed919311ea8c
