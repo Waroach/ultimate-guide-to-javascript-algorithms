@@ -5,7 +5,7 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 function reverseString(text){
                                                     // Chaining IN-BUILT Method
-    // return text.split('').reverse().join('')
+    return text.split('').reverse().join('')
     // ********** OR **********
     // return [...text].reverse().join('')
     // ********** OR **********
@@ -44,32 +44,8 @@ function reverseString(text){
     // ********** OR **********
     // return text.split("").reduce((acc, char) => char + acc, '')
     // ********** OR **********
-    return [...text].reduce((acc, char) => char + acc, '')
+    // return [...text].reduce((acc, char) => char + acc, '')
     // ********** OR **********
 }
-<<<<<<< HEAD
-/// the  t + h + e
-e+h+t
-
-
-=======
->>>>>>> 64df7c589ba693277ad6d786620fed919311ea8c
 
 module.exports = reverseString
-
-<<<<<<< HEAD
-module.exports = reverseString
-
-=======
->>>>>>> 64df7c589ba693277ad6d786620fed919311ea8c
-// ******** Before reading Scotch.IO ********
-// function reverseString(text) {
-//     let reverseText = text.split('').reverse().join('')
-//     console.log(text)
-//     console.log(reverseText)
-//     return reverseText
-<<<<<<< HEAD
-// }
-=======
-// }
->>>>>>> 64df7c589ba693277ad6d786620fed919311ea8c
