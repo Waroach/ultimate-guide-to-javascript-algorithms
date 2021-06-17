@@ -11,20 +11,16 @@ function fizzBuzz(n) {
     let count = 1
     while (count <= n){
         if((count % 3 === 0) && (count % 5 === 0)){
-            console.log('FizzBuzz')
-            return fizzBuzz
+            console.log('fizzbuzz')
             count++
         }else if(count % 3 === 0){
-            console.log('Fizz')
-            return Fizz
+            console.log('fizz')
             count++
         }else if(count % 5 === 0){
-            console.log('Buzz')
-            return Buzz
+            console.log('buzz')
             count++
         }else{
             console.log(count)
-            return count
             count++
         }
     }
